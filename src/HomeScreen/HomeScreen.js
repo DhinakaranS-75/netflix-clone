@@ -1,12 +1,14 @@
 import React from 'react'
 import './HomeScreen.css'
+import Navbar from './Navbar/Navbar'
 
-const Homescreen = () => {
+function HomeScreen() {
   return (
-    <div className='homescreen'>
-      
+    <div>
+        <Navbar />
+
     </div>
   )
 }
 
-export default Homescreen
+export default HomeScreen

@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Homescreen from './HomeScreen/Homescreen';
+import HomeScreen from './HomeScreen/HomeScreen';
+
 
 function App() {
   return (
-    <div className="App">
-      <Homescreen />
+    <div >
+      <HomeScreen />
     </div>
   );
 }
