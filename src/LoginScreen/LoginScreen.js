@@ -16,7 +16,14 @@ function LoginScreen() {
       </div>
       
       <div className="loginScreen_body">
-        <h1>Laughter. Tears. Thrills. Find it all on Netflix.</h1>
+        <>
+        <h1>Laughter Tears Thrills Find it all on Netflix.</h1>
+        <h2>Endless entertainment starts at just ₹ 149. Cancel anytime.</h2>
+        <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+        <input type="email"></input>
+        <button>Get Started</button>
+        </>
+        
       </div>
     </div>
   );
